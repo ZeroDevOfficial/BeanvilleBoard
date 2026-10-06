@@ -29,7 +29,7 @@ A sleek, lightweight, and highly optimized unified HUD plugin for Minecraft Bedr
 Ensure your Bedrock Dedicated Server is running the latest stable build of the **[Endstone API Platform](https://endstone.dev)** with Python **3.9+** enabled.
 
 ### 2. Deployment Steps
-1. Download the latest compiled release file: `endstone_beanville_scoreboard-1.0.0-py3-none-any.whl` from the releases tab.
+1. Download the latest compiled release file: **[endstone_beanville_scoreboard-1.0.0-py3-none-any.whl](https://github.com/ZeroDevOfficial/BeanvilleBoard/releases/tag/Release)** from the releases tab.
 2. Connect to your server dashboard or FTP panel and open the root **`plugins`** directory.
 3. Drop the `.whl` archive directly into the main `plugins` folder.
 4. **Restart** your server container completely to let Endstone register and unzip the wheel binary file paths.
