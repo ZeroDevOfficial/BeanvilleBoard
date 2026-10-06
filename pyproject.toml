@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "endstone_beanville_scoreboard"
+version = "1.0.0"
+description = "Custom Rainbow Sidebar and Animated Progress Boss Bar for Endstone Bedrock Servers"
+requires-python = ">=3.9"
+
+[project.entry-points."endstone"]
+beanville_scoreboard = "beanville_scoreboard:BeanvilleBoard"
+
+[tool.setuptools]
+py-modules = ["beanville_scoreboard"]
+
+[tool.setuptools.package-data]
+"*" = ["*.yml", "*.yaml"]
